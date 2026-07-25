@@ -1,0 +1,36 @@
+
+
+
+
+
+#game-container{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin: 5px;
+    overflow: hidden;
+
+}
+
+#target{
+    position: absolute;
+    left: 140px;
+    background-color: blue;
+    border: none;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 8px;
+    cursor: pointer;
+    transition: top 0.5s, left 0.5s;
+}
+
+#yes{
+    background-color: red;
+    border-radius: 10px;
+    width: 90px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 4px;
+}
+
